@@ -1,0 +1,12 @@
+                        "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+                        "bitcoincash:qr95sy3j9xwd2ap32xkykttr4cvcu7as4y0qverfuy",
+                        "bitcoincash:qqq3728yw0y47sqn6l2na30mcw6zm78dzqre909m2r",
+                },
+                P2SH: {
+                        "bitcoincash:ppm2qsznhks23z7629mms6s4cwef74vcwvn0h829pq",
+                        "bitcoincash:pr95sy3j9xwd2ap32xkykttr4cvcu7as4yc93ky28e",
+                        "bitcoincash:pqq3728yw0y47sqn6l2na30mcw6zm78dzq5ucqzc37",
+                },
+        }
+        for i, payload := range payloads {
+                for _, addrtype := range []uint8{P2KH, P2SH} {
